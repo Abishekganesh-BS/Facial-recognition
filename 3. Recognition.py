@@ -17,7 +17,7 @@ with open("pickles/face-labels.pickle", 'rb') as f:
 	og_labels = pickle.load(f)
 	labels = {v:k for k,v in og_labels.items()}
 
-cap = cv2.VideoCapture('http://192.168.29.174:4747/video')
+cap = cv2.VideoCapture(0)#camera
 
 while(True):
    
