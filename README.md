@@ -37,8 +37,6 @@ Install dependencies:
 pip install opencv-python opencv-contrib-python pillow numpy
 ```
 
-⚠️ Note: `opencv-contrib-python` is required for `cv2.face.LBPHFaceRecognizer_create()`.
-
 ---
 
 ## ▶️ Usage
@@ -113,4 +111,3 @@ Version: `0.01`
 
 ---
 
-Would you like me to also add a **setup guide** (with folder structure creation and cascade downloads), so users can run it without errors on a fresh system?
